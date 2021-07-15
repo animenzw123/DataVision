@@ -90,7 +90,7 @@ class Breadcrumb extends Component {
       }
     }
 
-    document.title = title + " | Admin";
+    document.title = title;
 
     return <>{breadcrumb}</>;
   }
