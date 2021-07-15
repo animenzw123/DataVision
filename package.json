@@ -1,0 +1,71 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-core": "^2.7.4",
+    "@devexpress/dx-react-grid": "^2.7.4",
+    "@devexpress/dx-react-grid-bootstrap4": "^2.7.4",
+    "@fullcalendar/core": "^5.5.1",
+    "@fullcalendar/interaction": "^5.5.0",
+    "@fullcalendar/react": "^5.5.0",
+    "@fullcalendar/resource-timeline": "^5.5.0",
+    "@material-ui/core": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "devextreme": "20.2.5",
+    "devextreme-react": "20.2.5",
+    "font-awesome": "^4.7.0",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-big-calendar": "^0.30.0",
+    "react-bootstrap": "^1.4.3",
+    "react-data-table-component": "^7.0.0-alpha-4",
+    "react-datepicker": "^3.4.1",
+    "react-dom": "^17.0.1",
+    "react-dropzone": "^11.2.4",
+    "react-full-screen": "^0.3.2-0",
+    "react-loadable": "^5.5.0",
+    "react-nvd3": "^0.5.7",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-window-size": "^1.2.2",
+    "redux": "^4.0.5",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
