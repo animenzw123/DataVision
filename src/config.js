@@ -1,5 +1,5 @@
 export default {
-    defaultPath: '/dashboard/default',
+    defaultPath: '/dashboard',
     
     layout: 'vertical', 
     preLayout: null, 

@@ -10,14 +10,14 @@ export default {
           id: "dashboard",
           title: "Dashboard",
           type: "item",
-          url: "/dashboard/default",
+          url: "/dashboard",
           icon: "feather icon-home",
         },
         {
           id: "tasks",
           title: "Tasks",
           type: "item",
-          url: "/equipement-tasks/tasks",
+          url: "/tasks",
           icon: "feather icon-credit-card",
         },
 

@@ -30,7 +30,7 @@ export default () => {
   const history = useHistory();
 
   const goToAddNewTask = () => {
-    history.push("/equipement-tasks/task/add-new");
+    history.push("/task/add-new");
   };
   const [columns] = useState([
     { name: "taskNames", title: "Task Name" },
@@ -101,7 +101,6 @@ export default () => {
                     <Button variant="primary" onClick={goToAddNewTask}>
                       Add New Task
                     </Button>
-                    <Button variant="secondary">Export to CSV</Button>
                   </ButtonGroup>
                 </Col>
               </Row>

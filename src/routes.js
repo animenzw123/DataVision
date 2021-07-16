@@ -1,12 +1,11 @@
 import React from "react";
 
-const DashboardDefault = React.lazy(() => import("./pages/Dashboard"));
+const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 
 
 
 
 
-const AssetsList = React.lazy(() => import("./pages/AssetsTasks/AssetsList"));
 const TaskList = React.lazy(() => import("./pages/AssetsTasks/TaskList"));
 
 
@@ -19,10 +18,10 @@ const Scheduler = React.lazy(() => import("./pages/Scheduler/Scheduler"));
 
 const routes = [
   {
-    path: "/dashboard/default",
+    path: "/dashboard",
     exact: true,
-    name: "Default",
-    component: DashboardDefault,
+    name: "Dashboard",
+    component: Dashboard,
   },
  
   
@@ -30,7 +29,7 @@ const routes = [
 
 
   {
-    path: "/equipement-tasks/tasks",
+    path: "/tasks",
     exact: true,
     name: "Tasks",
     component: TaskList,
@@ -49,7 +48,7 @@ const routes = [
 
 
   {
-    path: "/equipement-tasks/task/add-new",
+    path: "/task/add-new",
     exact: true,
     name: "Add New Task",
     component: AddNewTask,
